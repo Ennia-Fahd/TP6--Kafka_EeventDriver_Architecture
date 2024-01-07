@@ -1,4 +1,4 @@
-# Event Driven Architecture : JMS et KAFKA
+# Event Driven Architecture : JMS et KAFKA (Page Event)
 
 Event-Driven Architecture (EDA) relies on the fundamental principle of asynchronous communication between different components of a software system. Two key technologies that facilitate the implementation of EDA are Java Message Service (JMS) and Apache Kafka.
 
@@ -6,11 +6,15 @@ JMS, the Java standard for asynchronous messaging, provides a unified interface 
 
 On the other hand, Kafka, a distributed streaming platform, has emerged as an essential solution for EDA. Designed to handle massive volumes of real-time data, Kafka uses a publish/subscribe model based on topics. It offers exceptional scalability, low latency, and high data durability. Kafka is particularly well-suited for modern architectures requiring continuous event processing and has become a cornerstone for building real-time data pipelines.
 
-### Topic R2 :
+### Spring Cloud Stream Kafka - PageEvent Entity
+![PageEvent](https://github.com/Ennia-Fahd/TP6--Kafka_EeventDriver_Architecture/assets/92646945/1f962b0a-3fc0-405e-b1c1-de79c86d85ba)
+
+The PageEvent entity is employed in the broader context of a Spring Cloud Stream and Kafka setup, where it serves as a structured representation of events related to page interactions. The entity's fields capture essential information about each event, facilitating the seamless exchange and processing of real-time data within the application.
+### Topic R2 (Page Event Supplier):
 ![R2](https://github.com/Ennia-Fahd/TP6--Kafka_EeventDriver_Architecture/assets/92646945/9143d359-13dd-4b8e-ba04-26052f1e305c)
-### Topic R3 :
+### Topic R3 (Page Event Function):
 ![R3](https://github.com/Ennia-Fahd/TP6--Kafka_EeventDriver_Architecture/assets/92646945/cf5f6aa0-6d10-470a-947e-6d4b678786c0)
-### Analytics Operations :
+### Analysis operations (Count the number of pages filtered according to their durations) :
 ![kafkaAnalytics](https://github.com/Ennia-Fahd/TP6--Kafka_EeventDriver_Architecture/assets/92646945/bbf35986-f1e8-4fa2-a6aa-103050ebc360)
 ### Smoothie JS :
 ![KafkaFin](https://github.com/Ennia-Fahd/TP6--Kafka_EeventDriver_Architecture/assets/92646945/afc921b0-9f0c-406d-b927-6a760305ba95)
