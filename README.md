@@ -8,7 +8,6 @@ On the other hand, Kafka, a distributed streaming platform, has emerged as an es
 
 ### Spring Cloud Stream Kafka - PageEvent Entity
 ![PageEvent](https://github.com/Ennia-Fahd/TP6--Kafka_EeventDriver_Architecture/assets/92646945/1f962b0a-3fc0-405e-b1c1-de79c86d85ba)
-
 The PageEvent entity is employed in the broader context of a Spring Cloud Stream and Kafka setup, where it serves as a structured representation of events related to page interactions. The entity's fields capture essential information about each event, facilitating the seamless exchange and processing of real-time data within the application.
 ### Topic R2 (Page Event Supplier):
 ![R2](https://github.com/Ennia-Fahd/TP6--Kafka_EeventDriver_Architecture/assets/92646945/9143d359-13dd-4b8e-ba04-26052f1e305c)
@@ -18,7 +17,6 @@ The PageEvent entity is employed in the broader context of a Spring Cloud Stream
 ![kafkaAnalytics](https://github.com/Ennia-Fahd/TP6--Kafka_EeventDriver_Architecture/assets/92646945/bbf35986-f1e8-4fa2-a6aa-103050ebc360)
 ### Smoothie JS :
 ![KafkaFin](https://github.com/Ennia-Fahd/TP6--Kafka_EeventDriver_Architecture/assets/92646945/afc921b0-9f0c-406d-b927-6a760305ba95)
-
 Smoothie.js is a lightweight and efficient JavaScript library designed to simplify the implementation of real-time, live-updating user interfaces. While not inherently tied to Event-Driven Architecture (EDA) or Apache Kafka, Smoothie.js can be a valuable tool in visualizing and presenting data streams, which aligns well with the principles of EDA and Kafka's capabilities.
 
 In the context of EDA, where events play a central role in system communication, Smoothie.js can be utilized to create dynamic and interactive dashboards that display real-time event data. By seamlessly updating charts and graphs as new events are received, Smoothie.js enhances the user experience by providing instant visibility into the evolving state of the system.
